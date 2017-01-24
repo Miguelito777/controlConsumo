@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Reporte Consumo</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="datepicker.css">
+</head>
+<body>
+	
+	<div class="container">
+		<hr>
+		<div class="row">
+			<div class="col-xs-4">
+				<label for="date" class="col-sm-2"></label>
+			</div>
+			<div class="col-xs-4">
+				<input id="date" class="form-control {2:form-control-{1:sm|lg}}" type="text" placeholder="Seleccione Fecha">
+			</div>
+			<div class="col-xs-4"></div>
+		</div>	
+		<br><br>
+		<div class="row">
+			<div class="col-xs-2"></div>
+			<div class="col-xs-8" id="tableReport"></div>
+			<div class="col-xs-2"></div>
+		</div>
+		<br><br>
+		<div class="row">
+			<div class="col-xs-2"></div>
+			<div class="col-xs-8" id="resumen"></div>
+			<div class="col-xs-2"></div>
+		</div>		
+	</div>
+
+	<script type="text/javascript" src="jquery-2.1.1.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+	<script type="text/javascript" src="bootstrap-datepicker.js"></script>
+	<script type="text/javascript" src="modelo.js"></script>
+	<script type="text/javascript" src="controlador.js"></script>
+</body>
+</html>
